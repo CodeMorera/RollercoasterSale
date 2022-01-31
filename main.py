@@ -1,6 +1,6 @@
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
-if height > 120:
+if height >= 120:
   print("You can ride the rollercoaster")
 else:
-  print("Sorry, your need to grow taller")
+  print("Sorry, you need to grow taller")
